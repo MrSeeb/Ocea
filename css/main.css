@@ -107,6 +107,9 @@ aside{
     display: flex;
     width: 100%;
     background-color:ghostwhite;
+    position: fixed;
+    z-index: 2;
+    top: 0px;
 }
 aside ul {
     align-content: space-around;
@@ -139,7 +142,7 @@ form input{
 /* NAV */
 
 nav{
-    width: 100%;
+    margin: 80px auto 0;
 }
 nav ul{
     list-style-type: none;
@@ -198,7 +201,7 @@ section.rose{
     background-color: palevioletred;
     color: white;
     text-align: center;
-    margin-top: -22px;
+    top: 22px;
     padding: 2em 0;
 }
 div.infos{
@@ -219,6 +222,39 @@ a.testeznous{
     text-decoration: none;
 }
 /* FIN SECTION ROSE */
+
+/* SECTION CONTRAT */
+
+section.contrat{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+section.contrat h2{
+    text-align: justify;
+}
+section.contrat .video{
+    display: flex;
+    justify-content: space-around;
+}
+/* FIN SECTION CONTRAT */
+
+/* SECTION PLANNING */
+
+section.planning{
+    background-color: palevioletred;
+    display: flex;
+}
+
+section.planning article{
+    background-color: red;
+    display: flex;
+    align-content: space-around;
+    width: 20%;
+}
+
+/* FIN SECTION PLANNING */
+
 
 /* FOOTER */
 
