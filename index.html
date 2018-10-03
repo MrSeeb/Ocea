@@ -34,16 +34,14 @@
         <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
         <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a></li>
       </ul>
-      <ul class="drop">
-        <li class="dropdown">
-          <a href="javascript:void(0)" class="dropbtn">Réservation</a>
-          <div class="dropdown-content">
-            <a href="#">Une séance d'atelier</a>
-            <a href="#">Un cours de badminton</a>
-            <a href="#">Une séance U.V.</a>
-          </div>
-        </li>
-      </ul>
+      <form action="" method="POST">
+        <select name="liste">
+          <option value="atelier">Une séance d'atelier</option>
+          <option value="badminton">Un cours de badminton</option>
+          <option value="uv">Une séance d'UV</option>
+        </select>
+        <input type="submit" value="GO">
+      </form>
     </aside>
     <!-- HEADER-->
       <nav>
@@ -107,7 +105,7 @@
           <p>7000 m² d'infrastructures</p>
         </div>
       </div>
-      <a href="#">Testez-nous</a>
+      <a href="#" class="testeznous">Testez-nous !</a>
     </section>
     <section>
       <h2>Notre contrat</h2>
@@ -165,49 +163,52 @@
     </div>
 
   <footer>
-    <section>
-      <h2>Ocea</h2>
-      <ul>  
-        <li>51 rue de la Cimaise</li>
-        <li>59650 Villeneuve d'Ascq</li>
-        <li>03.20.47.03.03</li>
-      </ul>
-      <a href="mailto:accueil@oceaclub.com">accueil at oceaclub.com</a>
-    </section>
-    <section>
-      <h2>Ocea Sport</h2>
-      <ul>
-        <li><a href="#">Le planning</a></li>
-        <li><a href="#">Les cours</a></li>
-        <li><a href="#">Les tarifs</a></li>
-        <li><a href="#">L'offre découverte</a></li>
-        <li><a href="#">Réserver un cours de badminton</a></li>
-        <li><a href="#">Réserver un atelier</a></li>
-        <li><a href="#">Résilier</a></li>
-      </ul>
-    </section>
-    <section>
-      <h2>Ocea Esthétique</h2>
-      <ul>
-        <li><a href="#">Solutions Beauté Visage</a></li>
-        <li><a href="#">Solutions Beauté Corps</a></li>
-        <li><a href="#">Expériences Payot</a></li>
-        <li><a href="#">Modelages "Bien-Etre"</a></li>
-        <li><a href="#">Formules Complètes "Forfaits"</a></li>
-        <li><a href="#">Mains, Pieds et Ongles</a></li>
-        <li><a href="#">Épilations</a></li>
-        <li><a href="#">Maquillage, Beauté du regard</a></li>
-      </ul>
-    </section>
-    <section>
-      <h2>Ocea Sun</h2>
-      <ul>
-        <li><a href="#">Les machines</a></li>
-        <li><a href="#">Les tarifs</a></li>
-        <li><a href="#">Les produits</a></li>
-        <li><a href="#">Réserver une séance</a></li>
-      </ul>
-    </section>
+    <div class="liens">
+      <section>
+        <h2>Ocea</h2>
+        <ul>  
+          <li>51 rue de la Cimaise</li>
+          <li>59650 Villeneuve d'Ascq</li>
+          <a href="tel:0320470303">03.20.47.03.03</a>
+        </ul>
+        <a href="mailto:accueil@oceaclub.com">accueil at oceaclub.com</a>
+      </section>
+      <section>
+        <h2>Ocea Sport</h2>
+        <ul>
+          <li><a href="#">Le planning</a></li>
+          <li><a href="#">Les cours</a></li>
+          <li><a href="#">Les tarifs</a></li>
+          <li><a href="#">L'offre découverte</a></li>
+          <li><a href="#">Réserver un cours de badminton</a></li>
+          <li><a href="#">Réserver un atelier</a></li>
+          <li><a href="#">Résilier</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Ocea Esthétique</h2>
+        <ul>
+          <li><a href="#">Solutions Beauté Visage</a></li>
+          <li><a href="#">Solutions Beauté Corps</a></li>
+          <li><a href="#">Expériences Payot</a></li>
+          <li><a href="#">Modelages "Bien-Etre"</a></li>
+          <li><a href="#">Formules Complètes "Forfaits"</a></li>
+          <li><a href="#">Mains, Pieds et Ongles</a></li>
+          <li><a href="#">Épilations</a></li>
+          <li><a href="#">Maquillage, Beauté du regard</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Ocea Sun</h2>
+        <ul>
+          <li><a href="#">Les machines</a></li>
+          <li><a href="#">Les tarifs</a></li>
+          <li><a href="#">Les produits</a></li>
+          <li><a href="#">Réserver une séance</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="copy">© 2018 Oxygene Studio - C.G.V. - <a href="#">Mentions Légales</a></div>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
