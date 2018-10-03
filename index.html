@@ -34,16 +34,14 @@
         <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
         <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a></li>
       </ul>
-      <ul class="drop">
-        <li class="dropdown">
-          <a href="javascript:void(0)" class="dropbtn">Réservation</a>
-          <div class="dropdown-content">
-            <a href="#">Une séance d'atelier</a>
-            <a href="#">Un cours de badminton</a>
-            <a href="#">Une séance U.V.</a>
-          </div>
-        </li>
-      </ul>
+      <form action="" method="POST">
+        <select name="liste">
+          <option value="atelier">Une séance d'atelier</option>
+          <option value="badminton">Un cours de badminton</option>
+          <option value="uv">Une séance d'UV</option>
+        </select>
+        <input type="submit" value="GO">
+      </form>
     </aside>
     <!-- HEADER-->
       <nav>
@@ -208,6 +206,7 @@
         <li><a href="#">Réserver une séance</a></li>
       </ul>
     </section>
+    <div class="copy">© 2018 Oxygene Studio - C.G.V. - <a href="#">Mentions Légales</a></div>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
