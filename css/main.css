@@ -226,18 +226,28 @@ footer{
     background-color: #4c4c4c;
     color: white;
     font-size: 12px;
+    height: 270px;
+}
+.liens{
     display: flex;
 }
-footer section{
+.liens section{
     margin: 0 auto;
 }
-footer section ul li{
+.liens section ul{
+    padding: 0;
+}
+.liens section ul li{
     list-style-type: none;
 }
-footer section a{
+.liens section a{
     color:white;
 }
-
+div.copy{
+    border-top: 1px white solid;
+    text-align: center;
+    margin: 1em 0;
+}
 /* FIN FOOTER */
 
 /* ==========================================================================
