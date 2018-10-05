@@ -262,9 +262,17 @@ section.planning{
     display: flex;
     height: 310px;
 }
+rose{
+    background-color: palevioletred;
+}
+purple{
+    background-color: purple;
+}
+orange{
+    background-color: orangered;
+}
 
 section.planning article{
-    background-color: palevioletred;
     color: white;
     width: 25%;
     list-style-type: none;
@@ -273,7 +281,6 @@ section.planning article{
 }
 
 section.planning article h3{
-    background-color: palevioletred;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -292,7 +299,20 @@ section.planning article a{
 }
 
 /* FIN SECTION PLANNING */
-
+section.purple{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    top: 22px;
+    padding: 2em 0;
+}
+section.orange{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    top: 22px;
+    padding: 2em 0;
+}
 
 /* FOOTER */
 
